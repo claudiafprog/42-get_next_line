@@ -6,7 +6,7 @@
 /*   By: clferrei <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/11 13:24:33 by clferrei          #+#    #+#             */
-/*   Updated: 2026/05/11 14:23:14 by clferrei         ###   ########.fr       */
+/*   Updated: 2026/05/12 12:21:05 by clferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,8 @@ char	*ft_strchr(const char *s, int c)
 {
 	char	*str;
 
+	if (!s)
+		return (NULL);
 	str = (char *)s;
 	while (*str != '\0' && *str != (char)c)
 		str++;
@@ -49,33 +51,6 @@ char	*ft_strchr(const char *s, int c)
 		return (str);
 	else
 		return (NULL);
-}
-
-void	*ft_calloc(size_t elements, size_t size)
-{
-	void	*s;
-
-	if (elements == 0 || size == 0)
-		return (malloc(0));
-	s = (char *)malloc(elements * size);
-	if (!s)
-		return (NULL);
-	ft_bzero(s, elements * size);
-	return (s);
-}
-
-void	ft_bzero(void *s, size_t n)
-{
-	char	*str;
-	size_t	i;
-
-	str = (char *)s;
-	i = 0;
-	while (i < n)
-	{
-		str[i] = '\0';
-		i++;
-	}
 }
 
 size_t	ft_strlen(const char *s)
