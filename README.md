@@ -34,17 +34,19 @@ Compile using:
 
 ```bash
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=n *.c
-
+```
 Example:
 
+```bash
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 *.c
-
+```
 The project must compile with different BUFFER_SIZE values.
 
 Run the executable:
 
+```bash
 ./a.out
-
+```
 ---
 
 ## Usage
