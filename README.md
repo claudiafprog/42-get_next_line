@@ -111,7 +111,7 @@ All implementation decisions and code were developed manually.
 ---
 
 ## Notes
-No use of lseek()
-No global variables (except allowed static usage)
-Memory is dynamically allocated and must be freed by the caller
-Designed to handle different buffer sizes efficiently
+- No use of lseek()
+- No global variables (except allowed static usage)
+- Memory is dynamically allocated and must be freed by the caller
+- Designed to handle different buffer sizes efficiently
