@@ -6,7 +6,7 @@
 /*   By: clferrei <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/12 15:31:05 by clferrei          #+#    #+#             */
-/*   Updated: 2026/05/13 09:46:59 by clferrei         ###   ########.fr       */
+/*   Updated: 2026/05/13 10:22:00 by clferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,7 +121,7 @@ char	*get_next_line(int fd)
 	stash[fd] = clean_stash(stash[fd]);
 	return (line);
 }
-
+/*
 #include <fcntl.h>
 #include <stdio.h>
 
@@ -170,4 +170,4 @@ int	main(int argc, char **argv)
 	close(fd1);
 	close(fd2);
 	return (0);
-}
+}*/
