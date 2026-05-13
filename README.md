@@ -72,7 +72,7 @@ Each call performs the following steps:
 - Search for a newline character
 - Extract a complete line from the stash
 - Update the stash with remaining content
-``` id="k1q9xt"
+
 
 This process ensures that only the necessary amount of data is read per call.
 
@@ -91,24 +91,20 @@ This allows switching between file descriptors without losing reading state.
 
 ## Resources
 
-```md id="p3z8aa"
 - 42 subject documentation (Get Next Line)
 - man 2 read
 - man 3 malloc
 - man 3 free
-``` id="t7m2nb"
 
 ---
 
 ## AI Usage
 
-```md id="x8k2dv"
 AI tools were used to:
 
 - review edge cases
 - help validate memory management logic
 - improve clarity of documentation
-``` id="q9lm3c"
 
 All implementation decisions and code were developed manually.
 
