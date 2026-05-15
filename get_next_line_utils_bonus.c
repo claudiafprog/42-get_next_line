@@ -6,11 +6,11 @@
 /*   By: clferrei <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/12 15:32:10 by clferrei          #+#    #+#             */
-/*   Updated: 2026/05/12 15:32:18 by clferrei         ###   ########.fr       */
+/*   Updated: 2026/05/15 16:27:33 by clferrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*ft_strjoin(const char *s1, const char *s2)
 {
